@@ -1,0 +1,31 @@
+﻿@model List<About>
+
+@{
+    ViewData["Title"] = "Update";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">About Edit</h1>
+            @foreach (About item in Model)
+            {
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Atl Acilama</label>
+                        <div class="col-8"><textarea class="form-control" id="exampleTextarea1" placeholder="About" rows="2" placeholder="Alt basliq">@item.Title</textarea></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">OUR STORY</label>
+                        <div class="col-10"><textarea class="form-control" id="exampleTextarea1" placeholder="OUR STORY" rows="6">@item.ourstory</textarea></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">OUR VISION</label>
+                        <div class="col-10"><textarea class="form-control" id="exampleTextarea1" placeholder="OUR VISION" rows="10">@item.ourvision</textarea></div>
+                    </div>
+                    <center><button type="submit" class="btn btn-info btn-fw">Update</button></center>
+                </form>
+            }
+        </div>
+    </div>
+</div>

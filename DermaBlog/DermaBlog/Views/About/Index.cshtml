@@ -1,0 +1,50 @@
+﻿@model List<About>
+
+@foreach (About item in Model)
+{
+	<!-- PAGE HEADER -->
+	<div class="page-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-1 col-md-10 text-center">
+					<h1 class="text-uppercase">About Us</h1>
+					<p class="lead">@item.Title</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /PAGE HEADER -->
+	<!-- SECTION -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-5">
+					<div class="section-row">
+						<div class="section-title">
+							<h2 class="title">Our story</h2>
+						</div>
+						<p>@item.ourstory</p>
+						<blockquote class="blockquote">
+							<p>Ei prima graecis consulatu vix, per cu corpora qualisque voluptaria. Bonorum moderatius in per, ius cu albucius voluptatum. Ne ius torquatos dissentiunt. Brute illum utroque eu quo. Cu tota mediocritatem vis, aliquip cotidieque eu ius, cu lorem suscipit eleifend sit.</p>
+							<footer class="blockquote-footer">Hipokrat</footer>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="section-row">
+						<div class="section-title">
+							<h2 class="title">Our Vision</h2>
+						</div>
+						<p>@item.ourvision</p>
+					</div>
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /SECTION -->
+}
+

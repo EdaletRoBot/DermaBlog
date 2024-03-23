@@ -1,0 +1,64 @@
+﻿@model List<Contact>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@foreach (Contact item in Model)
+{
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Contact Edit</h1>
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Atl Elaqe Contact</label>
+                        <div class="col-10"><textarea class="form-control" id="exampleTextarea1" placeholder="CONTACT Title" rows="2">@item.Title</textarea></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">CONTACT INFORMATION</label>
+                        <div class="col-12"><textarea class="form-control" id="exampleTextarea1" placeholder="CONTACT INFORMATION" rows="4">@item.ContactInformation   </textarea></div>
+                    </div>
+                    <div class="row">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label">Nomre</label>
+                                <div class="col-sm-9">
+                                  <textarea class="form-control" id="exampleTextarea1" placeholder="CONTACT Title" rows="1">@item.Number</textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label">Gmail</label>
+                                <div class="col-sm-9">
+                                    <textarea class="form-control" id="exampleTextarea1" placeholder="CONTACT Title" rows="1">@item.Gmail</textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label">Adress</label>
+                                <div class="col-sm-9">
+                                    <textarea class="form-control" id="exampleTextarea1" placeholder="CONTACT Title" rows="1">@item.Location</textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label">YouTube</label>
+                                <div class="col-sm-9">
+                                    <textarea class="form-control" id="exampleTextarea1" placeholder="CONTACT Title" rows="1">@item.YouTube</textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <center><button type="submit" class="btn btn-info btn-fw">Update</button></center>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+

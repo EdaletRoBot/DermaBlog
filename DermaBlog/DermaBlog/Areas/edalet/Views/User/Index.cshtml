@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    .blog-table-img {
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 1rem !important;
+    }
+</style>
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <span class="d-flex align-items-center justify-content-between">
+                <h4 class="card-title">Users</h4>
+                <a type="button" class="btn btn-info" asp-controller="User" asp-action="Create">Create</a>
+            </span>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th> User </th>
+                        <th> Full Name </th>
+                        <th> Status </th>
+                        <th> Deadline </th>
+                        <th class ="text-end"> Actions </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="py-1">
+                            <img src="~/Admin/assets/images/faces-clipart/pic-1.png" alt="image" />
+                        </td>
+                        <td> Herman Beck </td>
+                        <td><label class="badge badge-info">Aktiv</label></td>
+                        <td> May 15, 2015 </td>
+                        <td colspan="1" class="text-end">
+                            <button class="btn btn-info p-2"><span class="material-symbols-outlined">info</span></button>
+                            <button class="btn btn-success p-2"><span class="material-symbols-outlined">edit</span></button>
+                            <button class="btn btn-danger mx-2 p-2">
+                                <span class="material-symbols-outlined">delete</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="py-1">
+                            <img src="~/Admin/assets/images/faces-clipart/pic-2.png" alt="image" />
+                        </td>
+                        <td> Messsy Adam </td>
+                        <td><label class="badge badge-danger">Passive</label></td>
+                        <td> May 15, 2015 </td>
+                        <td colspan="1" class="text-end">
+                            <button class="btn btn-info p-2"><span class="material-symbols-outlined">info</span></button>
+                            <button class="btn btn-success p-2"><span class="material-symbols-outlined">edit</span></button>
+                            <button class="btn btn-danger mx-2 p-2">
+                                <span class="material-symbols-outlined">delete</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="py-1">
+                            <img src="~/Admin/assets/images/faces-clipart/pic-3.png" alt="image" />
+                        </td>
+                        <td>John Richards </td>
+                        <td><label class="badge badge-info">Aktiv</label></td>
+                        <td> May 15, 2015 </td>
+                        <td colspan="1" class="text-end">
+                            <button class="btn btn-info p-2"><span class="material-symbols-outlined">info</span></button>
+                            <button class="btn btn-success p-2"><span class="material-symbols-outlined">edit</span></button>
+                            <button class="btn btn-danger mx-2 p-2">
+                                <span class="material-symbols-outlined">delete</span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="py-1">
+                            <img src="~/Admin/assets/images/faces-clipart/pic-4.png" alt="image" />
+                        </td>
+                        <td> Peter Meggik </td>
+                        <td><label class="badge badge-danger">Passive</label></td>
+                        <td> May 15, 2015 </td>
+                        <td colspan="1" class="text-end">
+                            <button class="btn btn-info p-2"><span class="material-symbols-outlined">info</span></button>
+                            <button class="btn btn-success p-2"><span class="material-symbols-outlined">edit</span></button>
+                            <button class="btn btn-danger mx-2 p-2">
+                                <span class="material-symbols-outlined">delete</span>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

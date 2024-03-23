@@ -1,0 +1,36 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "Detail";
+}
+<div class="col-12">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Blog Details</h4>
+                    <div class="form-group">
+                        <label asp-for="Name" for="exampleInputName1"></label>
+                        <div>@Model.Name</div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="By" for="exampleSelectGender"></label>
+                    <div>@Model.By</div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Images"></label>
+                    <div>@Model.Images</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleTextarea1" asp-for="Title"></label>
+                    <div>@Model.Title</div>
+                    </div>
+                
+                <center><a asp-action="Index"><button type="button" class="btn btn-dark btn-fw">Go Back</button></a></center>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+

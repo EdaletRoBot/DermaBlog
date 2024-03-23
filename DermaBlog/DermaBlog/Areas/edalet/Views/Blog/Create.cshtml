@@ -1,0 +1,44 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="col-12">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Create Blog</h4>
+                <form method="post" class="forms-sample" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="Name" for="exampleInputName1"></label>
+                        <input asp-for="Name" class="form-control" id="exampleInputName1" placeholder="Name">
+                        <span class="text-danger" asp-validation-for="Name"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="By" for="exampleSelectGender"></label>
+                        <select asp-for="By" class="form-control" id="exampleSelectGender">
+                            <option>Irfan</option>
+                            <option>Nurlan</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Images"></label>
+                        <input accept="image/*" asp-for="Images" class="form-control">
+                        <span class="text-danger" asp-validation-for="Images"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleTextarea1" asp-for="Title"></label>
+                        <textarea asp-for="Title" class="form-control" rows="8"></textarea>
+                        <span class="text-danger" asp-validation-for="Title"></span>
+                    </div>
+                    <button type="submit" class="btn btn-gradient-primary me-2">Create</button>
+                    <a asp-action="Index" class="btn btn-light">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
+

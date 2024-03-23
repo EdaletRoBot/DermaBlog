@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\DermaBlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|c:\\users\\user\\source\\repos\\dermablog\\dermablog\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|solutionrelative:dermablog\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|c:\\users\\user\\source\\repos\\dermablog\\dermablog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|solutionrelative:dermablog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|c:\\users\\user\\source\\repos\\dermablog\\dermablog\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|solutionrelative:dermablog\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|c:\\users\\user\\source\\repos\\dermablog\\dermablog\\areas\\edalet\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|solutionrelative:dermablog\\areas\\edalet\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|c:\\users\\user\\source\\repos\\dermablog\\dermablog\\areas\\edalet\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|solutionrelative:dermablog\\areas\\edalet\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|c:\\users\\user\\source\\repos\\dermablog\\dermablog\\helpers\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|solutionrelative:dermablog\\helpers\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|c:\\users\\user\\source\\repos\\dermablog\\dermablog\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|solutionrelative:dermablog\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|c:\\users\\user\\source\\repos\\dermablog\\dermablog\\areas\\edalet\\views\\blog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|solutionrelative:dermablog\\areas\\edalet\\views\\blog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|c:\\users\\user\\source\\repos\\dermablog\\dermablog\\areas\\edalet\\views\\about\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|solutionrelative:dermablog\\areas\\edalet\\views\\about\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|c:\\users\\user\\source\\repos\\dermablog\\dermablog\\areas\\edalet\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C745A34-4CF3-4AF9-9350-08121E3F80F1}|DermaBlog\\DermaBlog.csproj|solutionrelative:dermablog\\areas\\edalet\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Program.cs",
+              "RelativeDocumentMoniker": "DermaBlog\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Program.cs",
+              "RelativeToolTip": "DermaBlog\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T13:02:37.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DermaBlog\\DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\DAL\\AppDbContext.cs",
+              "RelativeToolTip": "DermaBlog\\DAL\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T12:50:56.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "DermaBlog\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Models\\AppUser.cs",
+              "RelativeToolTip": "DermaBlog\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T12:48:11.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Helpers\\Extensions.cs",
+              "RelativeDocumentMoniker": "DermaBlog\\Helpers\\Extensions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Helpers\\Extensions.cs",
+              "RelativeToolTip": "DermaBlog\\Helpers\\Extensions.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:07:50.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Models\\Blog.cs",
+              "RelativeDocumentMoniker": "DermaBlog\\Models\\Blog.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Models\\Blog.cs",
+              "RelativeToolTip": "DermaBlog\\Models\\Blog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:01:41.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Areas\\edalet\\Views\\Blog\\Create.cshtml",
+              "RelativeDocumentMoniker": "DermaBlog\\Areas\\edalet\\Views\\Blog\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Areas\\edalet\\Views\\Blog\\Create.cshtml",
+              "RelativeToolTip": "DermaBlog\\Areas\\edalet\\Views\\Blog\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T14:54:03.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Areas\\edalet\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "DermaBlog\\Areas\\edalet\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Areas\\edalet\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "DermaBlog\\Areas\\edalet\\Controllers\\BlogController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T01:40:24.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Areas\\edalet\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "DermaBlog\\Areas\\edalet\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Areas\\edalet\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "DermaBlog\\Areas\\edalet\\Controllers\\AboutController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T01:39:09.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Areas\\edalet\\Views\\About\\Update.cshtml",
+              "RelativeDocumentMoniker": "DermaBlog\\Areas\\edalet\\Views\\About\\Update.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Areas\\edalet\\Views\\About\\Update.cshtml",
+              "RelativeToolTip": "DermaBlog\\Areas\\edalet\\Views\\About\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T01:38:57.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Areas\\edalet\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "DermaBlog\\Areas\\edalet\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\DermaBlog\\DermaBlog\\Areas\\edalet\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "DermaBlog\\Areas\\edalet\\Views\\About\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T01:37:35.958Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
